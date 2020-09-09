@@ -1,0 +1,89 @@
+
+a
+{
+    color: black;
+    text-decoration-line: none;
+    
+}
+
+
+.navedite:hover .dropdown-menu
+{
+    display: block;
+    
+   
+    
+}
+.navedite:hover
+{
+  
+    background-color: #17a2b8;
+    border-radius: 10%;
+}
+
+.season:hover
+{
+  color:#00cccc
+
+}
+
+.slider
+{
+    height:440px;
+}
+
+
+.pro_image
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5)
+}
+
+.product
+{
+    transition: .5s;
+}
+
+
+.product:hover 
+ {
+   transform:translateY(-20px);
+    transform:scale(1);
+     box-shadow:3px 8px 10px #9a9a9a;
+    background:rbga(.3,.3,.3,.3);
+    z-index:2;
+ }
+
+ .inner
+ {
+     overflow: hidden;
+ }
+
+ .inner img{
+     transition: all 1.5s ease;
+ }
+
+ .inner:hover img
+ {
+     transform: scale(1.5);
+ }
+
+.inner:hover detail
+{
+    display: block;
+
+}
+
+.product-small-img {
+    cursor: pointer;
+    width:80px;
+    height:80px;
+    opacity:.6 ;
+
+}
+
+.product-small-img:hover
+{
+    opacity: 1;
+}
+ 
+  
